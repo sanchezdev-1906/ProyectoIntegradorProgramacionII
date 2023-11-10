@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Univalle\2023-2\Programacion II\Proyecto Integrador 2023 - 2\SubCube\SubCube\obj\Debug\net7.0-windows\
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\
 SubCube
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-C:\Univalle\2023-2\Programacion II\Proyecto Integrador 2023 - 2\SubCube\SubCube\App.xaml
-4841418100
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\App.xaml
+5-495062171
 
-4-1219480912
-198947991364
-Pages\Login.xaml;StartWindow.xaml;Themes\ThemeDark.xaml;Themes\ThemeLight.xaml;
+5-59142142
+198-759771931
+Pages\Login.xaml;Pages\UserPage.xaml;StartWindow.xaml;Themes\ThemeDark.xaml;Themes\ThemeLight.xaml;
 
 False
 

@@ -8,19 +8,19 @@
     "net7.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\Sergio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Univalle\\2023-2\\Programacion II\\Proyecto Integrador 2023 - 2\\SubCube\\SubCube\\SubCube.csproj",
+      "projectUniqueName": "D:\\Programacion II\\ProyectoIntegradorProgramacionII\\SubCube\\SubCube.csproj",
       "projectName": "SubCube",
-      "projectPath": "C:\\Univalle\\2023-2\\Programacion II\\Proyecto Integrador 2023 - 2\\SubCube\\SubCube\\SubCube.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Univalle\\2023-2\\Programacion II\\Proyecto Integrador 2023 - 2\\SubCube\\SubCube\\obj\\",
+      "projectPath": "D:\\Programacion II\\ProyectoIntegradorProgramacionII\\SubCube\\SubCube.csproj",
+      "packagesPath": "C:\\Users\\Sergio\\.nuget\\packages\\",
+      "outputPath": "D:\\Programacion II\\ProyectoIntegradorProgramacionII\\SubCube\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sergio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

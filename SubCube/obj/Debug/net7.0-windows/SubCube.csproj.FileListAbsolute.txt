@@ -23,3 +23,30 @@ C:\Univalle\2023-2\Programacion II\Proyecto Integrador 2023 - 2\SubCube\SubCube\
 C:\Univalle\2023-2\Programacion II\Proyecto Integrador 2023 - 2\SubCube\SubCube\obj\Debug\net7.0-windows\Pages\Login.baml
 C:\Univalle\2023-2\Programacion II\Proyecto Integrador 2023 - 2\SubCube\SubCube\obj\Debug\net7.0-windows\Themes\ThemeDark.baml
 C:\Univalle\2023-2\Programacion II\Proyecto Integrador 2023 - 2\SubCube\SubCube\obj\Debug\net7.0-windows\App.baml
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\bin\Debug\net7.0-windows\SubCube.exe
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\bin\Debug\net7.0-windows\SubCube.deps.json
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\bin\Debug\net7.0-windows\SubCube.runtimeconfig.json
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\bin\Debug\net7.0-windows\SubCube.dll
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\bin\Debug\net7.0-windows\SubCube.pdb
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\Themes\ThemeDark.baml
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\Themes\ThemeLight.baml
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\Pages\Login.g.cs
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\Pages\UserPage.g.cs
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\StartWindow.g.cs
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\App.g.cs
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\SubCube_MarkupCompile.cache
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\SubCube_MarkupCompile.lref
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\App.baml
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\Pages\Login.baml
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\Pages\UserPage.baml
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\StartWindow.baml
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\SubCube.g.resources
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\SubCube.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\SubCube.AssemblyInfoInputs.cache
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\SubCube.AssemblyInfo.cs
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\SubCube.csproj.CoreCompileInputs.cache
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\SubCube.dll
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\refint\SubCube.dll
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\SubCube.pdb
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\SubCube.genruntimeconfig.cache
+D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\obj\Debug\net7.0-windows\ref\SubCube.dll
