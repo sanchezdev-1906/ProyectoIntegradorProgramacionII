@@ -23,3 +23,5 @@ C:\Univalle\2023-2\Programacion II\Proyecto Integrador 2023 - 2\SubCube\SubCube\
 C:\Univalle\2023-2\Programacion II\Proyecto Integrador 2023 - 2\SubCube\SubCube\obj\Debug\net7.0-windows\Pages\Login.baml
 C:\Univalle\2023-2\Programacion II\Proyecto Integrador 2023 - 2\SubCube\SubCube\obj\Debug\net7.0-windows\Themes\ThemeDark.baml
 C:\Univalle\2023-2\Programacion II\Proyecto Integrador 2023 - 2\SubCube\SubCube\obj\Debug\net7.0-windows\App.baml
+C:\Univalle\2023-2\Programacion II\Proyecto Integrador 2023 - 2\SubCube\SubCube\obj\Debug\net7.0-windows\Pages\Inicio.g.cs
+C:\Univalle\2023-2\Programacion II\Proyecto Integrador 2023 - 2\SubCube\SubCube\obj\Debug\net7.0-windows\Pages\Inicio.baml

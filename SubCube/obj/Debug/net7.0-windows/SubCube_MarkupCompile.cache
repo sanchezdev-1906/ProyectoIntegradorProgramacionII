@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\Univalle\2023-2\Programacion II\Proyecto Integrador 2023 - 2\SubCube\SubCube\App.xaml
-4841418100
+51251242796
 
-4-1219480912
+5-926843822
 198947991364
-Pages\Login.xaml;StartWindow.xaml;Themes\ThemeDark.xaml;Themes\ThemeLight.xaml;
+Pages\Inicio.xaml;Pages\Login.xaml;StartWindow.xaml;Themes\ThemeDark.xaml;Themes\ThemeLight.xaml;
 
 False
 

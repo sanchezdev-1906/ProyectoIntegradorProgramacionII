@@ -8,7 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Assets\" />
+    <None Remove="Imagenes\background-large.jpg" />
+    <None Remove="Imagenes\logo.png" />
+    <None Remove="Imagenes\Posts\post1.jpg" />
+    <None Remove="Imagenes\user.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Imagenes\background-large.jpg" />
+    <Resource Include="Imagenes\logo.png" />
+    <Resource Include="Imagenes\Posts\post1.jpg" />
+    <Resource Include="Imagenes\user.png" />
   </ItemGroup>
 
 </Project>

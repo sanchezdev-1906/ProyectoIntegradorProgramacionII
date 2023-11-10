@@ -1,0 +1,139 @@
+﻿<Page x:Class="SubCube.Pages.Inicio"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SubCube.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Inicio">
+
+    <Grid Background="{DynamicResource BackgroundColor}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250px"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Background="{DynamicResource BackgroundCard}">
+            <StackPanel.Resources>
+                <Style TargetType="Button">
+                    <Style.Setters>
+                        <Setter Property="Foreground" Value="{DynamicResource ForegroundColor}"/>
+                        <Setter Property="Background" Value="{DynamicResource BackgroundCard}"/>
+                        <Setter Property="FontSize" Value="18"/>
+                        <Setter Property="Padding" Value="10"/>
+                        <Setter Property="BorderThickness" Value="0"/>
+                        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+                    </Style.Setters>
+                </Style>
+                <Style TargetType="TextBlock">
+                    <Style.Setters>
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+                        <Setter Property="Margin" Value="10 0"/>
+                    </Style.Setters>
+                </Style>
+                <Style TargetType="Image">
+                    <Style.Setters>
+                        <Setter Property="Height" Value="30"/>
+                    </Style.Setters>
+                </Style>
+            </StackPanel.Resources>
+            <Image Source="/Imagenes/logo.png"></Image>
+            <Button>
+                <WrapPanel>
+                    <Image Source="/Imagenes/logo.png"></Image>
+                    <TextBlock>Inicio</TextBlock>
+                </WrapPanel>
+            </Button>
+            <Button>
+                <WrapPanel>
+                    <Image Source="/Imagenes/user.png"></Image>
+                    <TextBlock>Explorar</TextBlock>
+                </WrapPanel>
+            </Button>
+            <Button>
+                <WrapPanel>
+                    <Image Source="/Imagenes/logo.png"></Image>
+                    <TextBlock>Notificaciones</TextBlock>
+                </WrapPanel>
+            </Button>
+
+            <Button>
+                <WrapPanel>
+                    <Image Source="/Imagenes/logo.png"></Image>
+                    <TextBlock>Perfil</TextBlock>
+                </WrapPanel>
+            </Button>
+            <Button Click="Button_Click">
+                <WrapPanel>
+                    <Image Source="/Imagenes/logo.png"></Image>
+                    <TextBlock>Configuraciones</TextBlock>
+                </WrapPanel>
+            </Button>
+        </StackPanel>
+        <ScrollViewer Grid.Column="1" Margin="10 0" VerticalScrollBarVisibility="Auto" MaxHeight="600">
+            <StackPanel>
+                <StackPanel.Resources>
+                    <Style TargetType="StackPanel" x:Key="Post">
+                        <Setter Property="Margin" Value="0 10"/>
+                    </Style>
+                </StackPanel.Resources>
+                <Border Background="{DynamicResource BackgroundCard}" MaxWidth="600" Margin="0 10 0 10" BorderBrush="Transparent" BorderThickness="2" CornerRadius="10">
+                    <StackPanel Style="{StaticResource Post}">
+                        <!-- POST-->
+                        <StackPanel.Resources>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="FontWeight" Value="Medium"/>
+                            </Style>
+                        </StackPanel.Resources>
+                        <WrapPanel>
+                            <!-- Usuario-->
+                            <Image Margin="10" Source="/Imagenes/user.png" Height="30"/>
+                            <StackPanel Margin="5">
+                                <TextBlock FontSize="16" Foreground="{DynamicResource ForegroundColor}">UsuarioR</TextBlock>
+                                <!-- Usuario-->
+                                <TextBlock FontSize="12" Foreground="{DynamicResource ForegroundColor}">Hace 2 Horas</TextBlock>
+                                <!-- Tiempo-->
+                            </StackPanel>
+                            <TextBlock Foreground="{DynamicResource ForegroundColor}" Margin="10" VerticalAlignment="Center" FontSize="12">Gamers</TextBlock>
+                            <!-- Grupo, Opcional-->
+                        </WrapPanel>
+                        <StackPanel>
+                            <TextBlock Foreground="{DynamicResource ForegroundColor}" Padding="10" TextWrapping="Wrap" FontSize="16" FontWeight="Regular">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit, parturient pulvinar commodo aliquam dictum taciti iaculis dis, vivamus fermentum potenti eu curabitur felis. Sem tincidunt luctus magna netus risus tempus nostra ultrices platea imperdiet parturient, congue dignissim rhoncus pellentesque
+                            </TextBlock>
+                            <Image Margin="10" Source="/Imagenes/Posts/post1.jpg" Height="200"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+                <Border Background="{DynamicResource BackgroundCard}" MaxWidth="600" Margin="0 10 0 10" BorderBrush="Transparent" BorderThickness="2" CornerRadius="10">
+                    <StackPanel Style="{StaticResource Post}">
+                        <!-- POST-->
+                        <StackPanel.Resources>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="FontWeight" Value="Medium"/>
+                            </Style>
+                        </StackPanel.Resources>
+                        <WrapPanel>
+                            <!-- Usuario-->
+                            <Image Margin="10" Source="/Imagenes/user.png" Height="30"/>
+                            <StackPanel Margin="5">
+                                <TextBlock FontSize="16" Foreground="{DynamicResource ForegroundColor}">UsuarioS</TextBlock>
+                                <!-- Usuario-->
+                                <TextBlock FontSize="12" Foreground="{DynamicResource ForegroundColor}">17 de Junio</TextBlock>
+                                <!-- Tiempo-->
+                            </StackPanel>
+                            <TextBlock Foreground="{DynamicResource ForegroundColor}" Margin="10" VerticalAlignment="Center" FontSize="12">Gamers</TextBlock>
+                            <!-- Grupo, Opcional-->
+                        </WrapPanel>
+                        <StackPanel>
+                            <TextBlock Foreground="{DynamicResource ForegroundColor}" Padding="10" TextWrapping="Wrap" FontSize="16" FontWeight="Regular">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit, parturient pulvinar commodo aliquam dictum taciti iaculis dis, vivamus fermentum potenti eu curabitur felis. Sem tincidunt luctus magna netus risus tempus nostra ultrices platea imperdiet parturient, congue dignissim rhoncus pellentesque
+                            </TextBlock>
+                            <Image Margin="10" Source="/Imagenes/Posts/post1.jpg" Height="200"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

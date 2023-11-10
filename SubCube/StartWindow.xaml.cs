@@ -23,7 +23,8 @@ namespace SubCube
         public MainWindow()
         {
             InitializeComponent();
-            MainFrame.Navigate(new Uri("Pages/Login.xaml", UriKind.Relative));
+            MainFrame.Navigate(new Uri("Pages/Inicio.xaml", UriKind.Relative));
+            DataContext = this;
         }
     }
 
