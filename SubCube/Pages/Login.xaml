@@ -23,7 +23,7 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Image HorizontalAlignment="Center" Stretch="UniformToFill" Source="D:\Programacion II\ProyectoIntegradorProgramacionII\SubCube\Assets\background-large.jpg"/>
+        <Image HorizontalAlignment="Center" Stretch="UniformToFill" Source="/Imagenes/background-large.jpg"/>
         <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Label FontSize="30" HorizontalAlignment="Center">
                 <WrapPanel>
