@@ -53,7 +53,7 @@ namespace SubCube.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SubCube;component/pages/inicio.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SubCube;V1.0.0.0;component/pages/inicio.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Pages\Inicio.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
