@@ -1,9 +1,0 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-
-    <SolidColorBrush x:Key="MainColor">#2BB3BF</SolidColorBrush>
-    <SolidColorBrush x:Key="BackgroundColor">#EEEEEE</SolidColorBrush>
-    <SolidColorBrush x:Key="ForegroundColor">#060909</SolidColorBrush>
-    <SolidColorBrush x:Key="BackgroundCard">#FFFFFF</SolidColorBrush>
-    <SolidColorBrush x:Key="ForegroundLink">Blue</SolidColorBrush>
-</ResourceDictionary>

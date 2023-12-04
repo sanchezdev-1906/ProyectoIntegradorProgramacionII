@@ -66,7 +66,7 @@
             <Button Click="Button_Click">
                 <WrapPanel>
                     <Image Source="/Imagenes/logo.png"></Image>
-                    <TextBlock>Configuraciones</TextBlock>
+                    <TextBlock>Tema</TextBlock>
                 </WrapPanel>
             </Button>
         </StackPanel>
@@ -86,10 +86,23 @@
                             </Style>
                         </StackPanel.Resources>
                         <WrapPanel>
+                            <WrapPanel.Resources>
+                                <Style TargetType="Button">
+                                    <Style.Setters>
+                                        <Setter Property="Foreground" Value="{DynamicResource ForegroundColor}"/>
+                                        <Setter Property="Background" Value="{DynamicResource BackgroundCard}"/>
+                                        <Setter Property="FontSize" Value="18"/>
+                                        <Setter Property="BorderThickness" Value="0"/>
+                                        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+                                    </Style.Setters>
+                                </Style>
+                            </WrapPanel.Resources>
                             <!-- Usuario-->
-                            <Image Margin="10" Source="/Imagenes/user.png" Height="30"/>
+                            <Button Click="BtnPerfil_Click">
+                                <Image Margin="10" Source="/Imagenes/user.png" Height="30"/>
+                            </Button>
                             <StackPanel Margin="5">
-                                <TextBlock FontSize="16" Foreground="{DynamicResource ForegroundColor}">UsuarioR</TextBlock>
+                                <TextBlock FontSize="16" Foreground="{DynamicResource ForegroundColor}">UsuarioJ</TextBlock>
                                 <!-- Usuario-->
                                 <TextBlock FontSize="12" Foreground="{DynamicResource ForegroundColor}">Hace 2 Horas</TextBlock>
                                 <!-- Tiempo-->

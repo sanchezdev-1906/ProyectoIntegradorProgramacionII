@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SubCube.Clases;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -13,7 +14,8 @@ namespace SubCube
     /// </summary>
     public partial class App : Application
     {
-        public string ActualTheme = "Light";
+        public string ActualTheme = "Dark";
+        public Usuario User = new Usuario();
         public void ChangeTheme(Uri dictionaryUri)
         {
             ResourceDictionary newDictionary = new ResourceDictionary();

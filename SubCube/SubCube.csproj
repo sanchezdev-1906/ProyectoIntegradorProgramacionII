@@ -8,13 +8,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Assets\background-large.jpg" />
-    <None Remove="Assets\background-small.jpg" />
+    <Compile Remove="Assets\**" />
+    <EmbeddedResource Remove="Assets\**" />
+    <None Remove="Assets\**" />
+    <Page Remove="Assets\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Assets\background-large.jpg" />
-    <Resource Include="Assets\background-small.jpg" />
+    <None Remove="Imagenes\background-small.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Imagenes\background-small.jpg" />
   </ItemGroup>
 
 </Project>

@@ -38,5 +38,15 @@ namespace SubCube.Pages
                 ((App)Application.Current).ActualTheme = "Light";
             }
         }
+
+        private void BtnPerfil_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService navigationService = NavigationService.GetNavigationService(this);
+
+            if (navigationService != null)
+            {
+                navigationService.Navigate(new Uri("Pages/UserPage.xaml", UriKind.Relative));
+            }
+        }
     }
 }

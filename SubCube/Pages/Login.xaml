@@ -18,39 +18,32 @@
         </Style>
     </Page.Resources>
 
-    <Grid Background="{DynamicResource BackgroundColor}">
+    <Grid Background="{DynamicResource ColorDark100}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Image HorizontalAlignment="Center" Stretch="UniformToFill" Source="/Imagenes/background-large.jpg"/>
+        <Image HorizontalAlignment="Center" Stretch="UniformToFill" Source="/Imagenes/background-small.jpg"/>
         <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Label FontSize="30" HorizontalAlignment="Center">
                 <WrapPanel>
-                    <TextBlock Foreground="{DynamicResource ForegroundColor}" FontWeight="SemiBold" Margin="0 0 10 0">Iniciar</TextBlock>
-                    <TextBlock Foreground="{DynamicResource ForegroundColor}">Sesion</TextBlock>
+                    <TextBlock Foreground="{DynamicResource ColorText}" FontWeight="SemiBold" Margin="0 0 10 0">Iniciar</TextBlock>
+                    <TextBlock Foreground="{DynamicResource ColorTitle}">Sesion</TextBlock>
                 </WrapPanel>
             </Label>
-            <TextBlock Margin="0 0 0 5" FontSize="14" Foreground="{DynamicResource ForegroundColor}">
-¿No tienes cuenta?.
-            </TextBlock>
-            <TextBlock Foreground="{DynamicResource ForegroundLink}"  FontSize="14" Margin="0 0 0 10">
-Crear una cuenta
-            </TextBlock>
             <StackPanel MinWidth="300px">
-                <TextBlock Foreground="{DynamicResource ForegroundColor}" FontSize="16" Margin="0 0 0 5" >Correo:</TextBlock>
-                <TextBox Background="{DynamicResource BackgroundColor}" Foreground="{DynamicResource ForegroundColor}" BorderBrush="#27b9ce" BorderThickness="0 0 0 2" Margin="0 0 0 5" Padding="0 5"></TextBox>
-                <TextBlock Foreground="{DynamicResource ForegroundColor}" FontSize="16"  Margin="0 0 0 5" >Contraseña:</TextBlock>
-                <TextBox Background="{DynamicResource BackgroundColor}" Foreground="{DynamicResource ForegroundColor}" BorderBrush="#27b9ce" BorderThickness="0 0 0 2" Margin="0 0 0 5" Padding="0 5"></TextBox>
-                <Button Margin="0 10 0 0" Padding="10" BorderThickness="0" FontWeight="Medium">
+                <TextBlock Foreground="{DynamicResource ColorText}" FontSize="16" Margin="0 0 0 5" >Usuario:</TextBlock>
+                <TextBox Name="TxtUser" FontSize="16" Background="Transparent" Foreground="{DynamicResource ColorTitle}" BorderBrush="#27b9ce" BorderThickness="0 0 0 2" Margin="0 0 0 5" Padding="0 5"></TextBox>
+                <TextBlock Foreground="{DynamicResource ColorText}" FontSize="16"  Margin="0 0 0 5" >Contraseña:</TextBlock>
+                <PasswordBox Name="TxtPassword" FontSize="16" Background="Transparent" Foreground="{DynamicResource ColorTitle}" BorderBrush="#27b9ce" BorderThickness="0 0 0 2" Margin="0 0 0 5" Padding="0 5"></PasswordBox>
+                <Button Margin="0 10 0 0" Padding="10" BorderThickness="0" FontSize="16" FontWeight="Medium" Click="BtnInicio_Click">
                     <Button.Resources>
                         <Style TargetType="{x:Type Border}">
                             <Setter Property="CornerRadius" Value="8"/>
                         </Style>
                     </Button.Resources>
-                    Iniciar Sesion
+                    Iniciar Sesión
                 </Button>
-                <Button BorderThickness="0" Click="Button_Click_1" Margin="0 10" Padding="10">Cambiar Tema</Button>
             </StackPanel>
         </StackPanel>
     </Grid>
