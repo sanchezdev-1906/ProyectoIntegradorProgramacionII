@@ -25,28 +25,5 @@ namespace SubCube.Pages
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            if (((App)Application.Current).ActualTheme == "Light")
-            {
-                ((App)Application.Current).ChangeTheme(new Uri("Themes/ThemeDark.xaml", UriKind.Relative));
-                ((App)Application.Current).ActualTheme = "Dark";
-            }
-            else if (((App)Application.Current).ActualTheme == "Dark")
-            {
-                ((App)Application.Current).ChangeTheme(new Uri("Themes/ThemeLight.xaml", UriKind.Relative));
-                ((App)Application.Current).ActualTheme = "Light";
-            }
-        }
-
-        private void BtnPerfil_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationService navigationService = NavigationService.GetNavigationService(this);
-
-            if (navigationService != null)
-            {
-                navigationService.Navigate(new Uri("Pages/UserPage.xaml", UriKind.Relative));
-            }
-        }
     }
 }

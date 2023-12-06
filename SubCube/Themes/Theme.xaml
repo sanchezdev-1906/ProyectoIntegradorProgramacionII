@@ -6,4 +6,17 @@
     <SolidColorBrush x:Key="ColorChanel">#909090</SolidColorBrush>
     <SolidColorBrush x:Key="ColorTitle">#FFFFFF</SolidColorBrush>
     <SolidColorBrush x:Key="ColorLink">#0000ff</SolidColorBrush>
+
+    <Style TargetType="Button" x:Key="Channel">
+        <Setter Property="Background" Value="#1a1d21"></Setter>
+        <Setter Property="Foreground" Value="#FFFFFF"></Setter>
+        <Setter Property="BorderThickness" Value="0"></Setter>
+        <Setter Property="FontSize" Value="16px"></Setter>
+        <Setter Property="Padding" Value="8px"></Setter>
+        <Style.Triggers>
+            <Trigger>
+                
+            </Trigger>
+        </Style.Triggers>
+    </Style>
 </ResourceDictionary>

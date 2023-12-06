@@ -8,17 +8,17 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Inicio">
 
-    <Grid Background="{DynamicResource BackgroundColor}">
+    <Grid Background="{DynamicResource ColorDark100}">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="250px"/>
+            <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <StackPanel Background="{DynamicResource BackgroundCard}">
+        <StackPanel Background="{DynamicResource ColorDark100}" Name="PanelCanales">
             <StackPanel.Resources>
                 <Style TargetType="Button">
                     <Style.Setters>
-                        <Setter Property="Foreground" Value="{DynamicResource ForegroundColor}"/>
-                        <Setter Property="Background" Value="{DynamicResource BackgroundCard}"/>
+                        <Setter Property="Foreground" Value="{DynamicResource ColorTitle}"/>
+                        <Setter Property="Background" Value="{DynamicResource ColorDark100}"/>
                         <Setter Property="FontSize" Value="18"/>
                         <Setter Property="Padding" Value="10"/>
                         <Setter Property="BorderThickness" Value="0"/>
@@ -37,36 +37,10 @@
                     </Style.Setters>
                 </Style>
             </StackPanel.Resources>
-            <Image Source="/Imagenes/logo.png"></Image>
-            <Button>
+            <Button Style="{DynamicResource Channel}">
                 <WrapPanel>
                     <Image Source="/Imagenes/logo.png"></Image>
-                    <TextBlock>Inicio</TextBlock>
-                </WrapPanel>
-            </Button>
-            <Button>
-                <WrapPanel>
-                    <Image Source="/Imagenes/user.png"></Image>
-                    <TextBlock>Explorar</TextBlock>
-                </WrapPanel>
-            </Button>
-            <Button>
-                <WrapPanel>
-                    <Image Source="/Imagenes/logo.png"></Image>
-                    <TextBlock>Notificaciones</TextBlock>
-                </WrapPanel>
-            </Button>
-
-            <Button>
-                <WrapPanel>
-                    <Image Source="/Imagenes/logo.png"></Image>
-                    <TextBlock>Perfil</TextBlock>
-                </WrapPanel>
-            </Button>
-            <Button Click="Button_Click">
-                <WrapPanel>
-                    <Image Source="/Imagenes/logo.png"></Image>
-                    <TextBlock>Tema</TextBlock>
+                    <TextBlock>#Tema</TextBlock>
                 </WrapPanel>
             </Button>
         </StackPanel>
@@ -89,7 +63,7 @@
                             <WrapPanel.Resources>
                                 <Style TargetType="Button">
                                     <Style.Setters>
-                                        <Setter Property="Foreground" Value="{DynamicResource ForegroundColor}"/>
+                                        <Setter Property="Foreground" Value="{DynamicResource ColorChanel}"/>
                                         <Setter Property="Background" Value="{DynamicResource BackgroundCard}"/>
                                         <Setter Property="FontSize" Value="18"/>
                                         <Setter Property="BorderThickness" Value="0"/>
@@ -98,7 +72,7 @@
                                 </Style>
                             </WrapPanel.Resources>
                             <!-- Usuario-->
-                            <Button Click="BtnPerfil_Click">
+                            <Button >
                                 <Image Margin="10" Source="/Imagenes/user.png" Height="30"/>
                             </Button>
                             <StackPanel Margin="5">
